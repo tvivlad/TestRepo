@@ -17,7 +17,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Message
-      run: print "Hello Message"  
+      run: echo "Hello Message"  
     - name: Install dependencies
       run: dotnet restore
     - name: Build
